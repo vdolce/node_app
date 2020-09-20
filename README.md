@@ -14,12 +14,12 @@ docker run -p 3000:3000 node-app:0.0.1
 Go to http://localhost:3000/api
 
 
-**To see docker live processes**
+**Check docker live processes**
 ```
 docker ps
 ```
 
-**To kill docker live processes**
+**Kill docker live processes**
 ```
 docker kill <container id name>
 ```
