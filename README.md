@@ -1,12 +1,12 @@
 # node_docker_app
 Simple node app with docker and Express js as Web server
 
-** Build docker image **
+**Build docker image**
 ```
 docker build -t node-app:0.0.1 .
 ```
 
-** Run docker image **
+**Run docker image**
 ```
 docker run -p 3000:3000 node-app:0.0.1 
 ```
@@ -14,12 +14,12 @@ docker run -p 3000:3000 node-app:0.0.1
 Go to http://localhost:3000/api
 
 
-** To see docker live processes **
+**To see docker live processes**
 ```
 docker ps
 ```
 
-** To kill docker live processes **
+**To kill docker live processes**
 ```
 docker kill <container id name>
 ```
